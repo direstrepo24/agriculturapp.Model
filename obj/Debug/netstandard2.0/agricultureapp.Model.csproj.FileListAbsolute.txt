@@ -1,0 +1,10 @@
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/obj/Debug/netstandard2.0/agricultureapp.Model.csproj.CoreCompileInputs.cache
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/obj/Debug/netstandard2.0/agricultureapp.Model.AssemblyInfoInputs.cache
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/obj/Debug/netstandard2.0/agricultureapp.Model.AssemblyInfo.cs
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/bin/Debug/netstandard2.0/agricultureapp.Model.deps.json
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/bin/Debug/netstandard2.0/agricultureapp.Model.dll
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/bin/Debug/netstandard2.0/agricultureapp.Model.pdb
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/bin/Debug/netstandard2.0/datamakerslib.dll
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/bin/Debug/netstandard2.0/datamakerslib.pdb
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/obj/Debug/netstandard2.0/agricultureapp.Model.dll
+/Users/torrefuertesas/dev/electro/agricultureapp.Model/obj/Debug/netstandard2.0/agricultureapp.Model.pdb
