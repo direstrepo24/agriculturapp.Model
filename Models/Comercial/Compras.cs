@@ -39,7 +39,7 @@ public class Compras
     
 
      public virtual Usuario Usuario{get;set;}
-    public long UsuarioId{ get; set; }
+    public string UsuarioId{ get; set; }
     
 
      public CompraStatus CompraStatus { get; set; }

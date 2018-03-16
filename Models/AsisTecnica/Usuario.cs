@@ -22,7 +22,7 @@ public class Usuario
 
     // Attributes
 
-    public long Id{get;set;}
+    public string Id{get;set;}
 
     public string Nombre{get;set;}
 
@@ -53,7 +53,7 @@ public class Usuario
 
     /// <summary> 
     /// </summary>
-    public int RolId{get;set;}
+    public string RolId{get;set;}
    // public Rol  rol;
 
    public ICollection<UnidadProductiva> UnidadProductiva{get;set;}

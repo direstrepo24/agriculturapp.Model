@@ -19,7 +19,7 @@ public class Rol
 
     // Attributes
 
-    public int Id{get;set;}
+    public string Id{get;set;}
 
     public string Nombre{get;set;}
 

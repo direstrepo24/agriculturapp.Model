@@ -24,7 +24,7 @@ public class Ofertas
 
     public long Id{get;set;}
     public Usuario Usuario{get;set;}
-    public long UsuarioId{get;set;}
+    public string UsuarioId{get;set;}
      public DateTimeOffset CreatedOn { get; set; }
 
     public DateTimeOffset UpdatedOn { get; set; }

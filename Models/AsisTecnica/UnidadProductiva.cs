@@ -39,7 +39,7 @@ public class UnidadProductiva
     /// <summary> 
     /// </summary>
     public Usuario  Usuario{get;set;}
-    public long UsuarioId{get;set;}
+    public string UsuarioId{get;set;}
     public Ciudad Ciudad{get;set;}
     public long CiudadId{get;set;} 
 
