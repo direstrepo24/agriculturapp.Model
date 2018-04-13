@@ -24,6 +24,7 @@ public class Transaccion
     public int PUC_Id;
 
     public string Concepto{get;set;}
+    public decimal Cantidad{get;set;}
 
     public decimal Valor{get;set;}
 
@@ -39,7 +40,9 @@ public class Transaccion
     public int NaturalezaId{get;set;}
     public Estado Estado{get;set;}
     public int EstadoId{get;set;}
-
+    public long CultivoId{get;set;}
+    //13 abril
+    public long userId{set;set;}
     /// <summary> 
     /// </summary>
 

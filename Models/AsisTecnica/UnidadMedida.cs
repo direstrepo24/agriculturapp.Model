@@ -25,7 +25,9 @@ public class UnidadMedida
 
     public string Sigla{get;set;}
 
-    // Associations
+    // Associations //13 abril
+    public CategoriaMedida CategoriaMedida{get;set;}
+    public int CategoriaMedidaId{get;set;}
    
 } /* end class Unidad */
 

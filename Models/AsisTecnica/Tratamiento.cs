@@ -17,6 +17,8 @@ namespace agricultureapp.Model.Models.AsisTecnica
         public int Categoria_InsumoId{get;set;}
         public virtual Insumo Insumo{get;set;}
          public long InsumoId{get;set;}
+         public Enfermedades Enfermedades{get;set;}
+         public long EnfermedadesId{get;set;}
 
 
     }
