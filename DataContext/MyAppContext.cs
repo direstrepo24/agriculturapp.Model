@@ -46,9 +46,10 @@ namespace agricultureapp.Model.DataContext
         #endregion
         ///Modulo de Asistencia técnica
          public DbSet<Categoria_Insumo> Categoria_Insumo { get; set; }
-        public DbSet<CategoriaMedida> Categoria_Insumo { get; set; }
-     
-        CategoriaMedida
+        public DbSet<CategoriaMedida> CategoriaMedida { get; set; }
+        public DbSet<Calificacion> Calificacion { get; set; }
+       
+        
         public DbSet<Ciudad> Ciudad { get; set; }
         public DbSet<Departamento> Departamento{get;set;}
         public DbSet<ControlPlaga> ControlPlaga { get; set; }
@@ -87,7 +88,7 @@ namespace agricultureapp.Model.DataContext
         public DbSet<ProductCategoria> ProductCategoria { get; set; }
         public DbSet<Producto> Producto { get; set; }
         public DbSet<TypeNotification> TypeNotification { get; set; }
-         public DbSet<TipoProducto> TypeNotification { get; set; }
+         public DbSet<TipoProducto> TipoProducto { get; set; }
        
         
         ///Módulo contable

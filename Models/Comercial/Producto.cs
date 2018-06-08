@@ -38,9 +38,11 @@ public class Producto
     public bool IsEnable{get;set;}
 
     public DateTime FechaLimiteDisponibilidad{get;set;}
+    public string PrecioUnidadMedida{get;set;}
 
     // Associations
-    
+    public int UnidadMedidaId{get;set;}
+    public UnidadMedida UnidadMedida{get;set;}
     public Calidad Calidad{get;set;}
     public long CalidadId{get;set;}
 
@@ -50,6 +52,7 @@ public class Producto
 
     public Cultivo Cultivo{get;set;}
     public long cultivoId{get;set;}
+    public string userId{get;set;}
         
     /// <summary> 
     /// </summary>

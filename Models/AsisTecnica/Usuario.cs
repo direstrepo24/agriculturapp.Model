@@ -46,7 +46,7 @@ public class Usuario
 
      public string Fotopefil{get;set;}
      public DetalleMetodopago DetallemetodoPago{get;set;}  
-     public int DetallemetodoPagoId{get;set;} 
+     public int? DetallemetodoPagoId{get;set;} 
 
     // Associations
     public DateTime FechaRegistro{get;set;}

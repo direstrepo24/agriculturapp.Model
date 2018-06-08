@@ -24,11 +24,11 @@ public class Enfermedades
 
     public string Codigo{ get; set; }
 
-   // public string Nombre{ get; set; }
+    public string Nombre{ get; set; }
 
    // public string NombreCientifico{ get; set; }
 
-    //public string Descripcion{ get; set; }
+    public string Descripcion{ get; set; }
     public TipoProducto TipoProducto{get;set;}
     public long TipoProductoId{get;set;}
 

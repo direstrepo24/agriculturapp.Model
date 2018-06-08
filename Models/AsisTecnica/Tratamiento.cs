@@ -13,12 +13,15 @@ namespace agricultureapp.Model.Models.AsisTecnica
         public string proveedor{get;set;}
         //asociations
        
-        public virtual Categoria_Insumo Categoria_Insumo{get;set;}
-        public int Categoria_InsumoId{get;set;}
+        //public virtual Categoria_Insumo Categoria_Insumo{get;set;}
+       // public int Categoria_InsumoId{get;set;}
+       public DetalleCategoria_Insumo DetalleCategoria_Insumo{get;set;}
+        public int DetalleCategoria_InsumoId{get;set;}
         public virtual Insumo Insumo{get;set;}
          public long InsumoId{get;set;}
          public Enfermedades Enfermedades{get;set;}
          public long EnfermedadesId{get;set;}
+         
 
 
     }

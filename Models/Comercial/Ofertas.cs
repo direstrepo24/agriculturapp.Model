@@ -28,6 +28,7 @@ public class Ofertas
      public DateTimeOffset CreatedOn { get; set; }
 
     public DateTimeOffset UpdatedOn { get; set; }
+    public string usuarioto{ get; set; }  
 
      public Estado_Oferta EstadoOferta{get;set;}
      public int EstadoOfertaId{get;set;}

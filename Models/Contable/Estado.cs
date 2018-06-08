@@ -20,7 +20,7 @@ public class Estado
 
     public int Id{get;set;}
 
-    public int Nombre{get;set;}
+    public string Nombre{get;set;}
 
     // Associations
 

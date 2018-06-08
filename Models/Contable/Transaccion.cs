@@ -33,7 +33,7 @@ public class Transaccion
 
     // Associations
   public Tercero Tercero{get;set;}
-  public long TerceroId{get;set;}
+  public int TerceroId{get;set;}
     /// <summary> 
     /// </summary>
    public Naturaleza Naturaleza{get;set;}
@@ -42,7 +42,7 @@ public class Transaccion
     public int EstadoId{get;set;}
     public long CultivoId{get;set;}
     //13 abril
-    public long userId{set;set;}
+    public string userId{get;set;}
     /// <summary> 
     /// </summary>
 

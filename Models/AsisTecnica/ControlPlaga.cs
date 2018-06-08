@@ -38,7 +38,8 @@ public class ControlPlaga
    
     public Enfermedades Enfermedades{get;set;}
     public long EnfermedadesId{get;set;}
-     
+    public bool estadoRadicacion{get;set;}
+    public DateTimeOffset? FechaErradicacion { get; set; } 
    
 } /* end class ControlPlaga */
 

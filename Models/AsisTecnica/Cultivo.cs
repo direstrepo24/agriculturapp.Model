@@ -22,7 +22,7 @@ public class Cultivo
 {    /* {src_lang=CSharp}*/
 
     // Attributes
-   public long Id{ get; set; }
+     public long Id{ get; set; }
     public string Nombre{ get; set; }
 
     public string Descripcion{ get; set; }
@@ -35,7 +35,8 @@ public class Cultivo
     // Associations
     public virtual Lote  Lote{ get; set; }
     public long LoteId{get;set;}
-
+    public int UnidadMedidaId{get;set;}
+    public UnidadMedida UnidadMedida{get;set;}
    
     public DetalleTipoProducto DetalleTipoProducto{get;set;}
     public long DetalleTipoProductoId{get;set;}

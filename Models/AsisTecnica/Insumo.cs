@@ -28,6 +28,7 @@ public class Insumo
     public DateTime Fecha_Vencimiento{ get; set; }
 
     public String lote_laboratorio{ get; set; }
+    public string Imagen{get;set;} 
 
     // Associations
   
